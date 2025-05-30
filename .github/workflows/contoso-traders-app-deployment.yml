@@ -37,9 +37,9 @@ env:
   PRODUCT_LIST_CONTAINER_NAME: product-list
   PRODUCTS_CDN_ENDPOINT_NAME: contoso-traders-images
   RESOURCE_GROUP_NAME: contoso-traders-rg
-  STORAGE_ACCOUNT_NAME: contosotradersimg21
+  STORAGE_ACCOUNT_NAME: conto2sotradersimg21
   UI_CDN_ENDPOINT_NAME: contoso-traders-ui21
-  UI_STORAGE_ACCOUNT_NAME: contosotradersui21
+  UI_STORAGE_ACCOUNT_NAME: contos2otradersui21
   USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access
 
 jobs:
