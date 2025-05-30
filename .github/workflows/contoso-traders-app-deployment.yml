@@ -1,13 +1,13 @@
 name: contoso-traders-app-deployment
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 env:
-  ACR_NAME: contosotradersacres
+  ACR_NAME: contosotradersacr
   AKS_CLUSTER_NAME: contoso-traders-aks
   AKS_CPU_LIMIT: 250m
   AKS_DNS_LABEL: contoso-traders-products
