@@ -42,6 +42,10 @@ env:
   UI_STORAGE_ACCOUNT_NAME: contosotradersui
   USER_ASSIGNED_MANAGED_IDENTITY_NAME: contoso-traders-mi-kv-access
 
+permissions:
+  contents: read
+  pull-requests: write
+  
 jobs:
   provision:
     runs-on: ubuntu-22.04
